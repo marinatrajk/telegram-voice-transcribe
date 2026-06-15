@@ -121,11 +121,13 @@ The downloaded blob lives at `attachments/<message_id>/voice.<ext>` and is refer
 ## Installation
 
 ```bash
-# From GitHub
-assistant skills install marinatrajk/telegram-voice-transcribe
+assistant skills add marinatrajk/telegram-voice-transcribe/skills/telegram-voice-transcribe
+```
 
-# Or via direct URL
-assistant skills install https://github.com/marinatrajk/telegram-voice-transcribe
+Or via direct tree URL:
+
+```bash
+assistant skills add https://github.com/marinatrajk/telegram-voice-transcribe/tree/main/skills/telegram-voice-transcribe
 ```
 
 The plugin depends on the bundled `telegram-setup` (for the bot token + webhook) and the bundled `transcribe` skill (for STT). Install all three.
