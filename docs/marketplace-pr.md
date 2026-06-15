@@ -42,7 +42,7 @@ Append this entry to the `plugins` array in
   "source": {
     "source": "github",
     "repo": "marinatrajk/telegram-voice-transcribe",
-    "ref": "65504e13900117e070014b2917c7ae09dff80c61"
+    "ref": "b0ff62b33c78cc3b922adfc556f0a28af658f3db"
   },
   "description": "Transcribes Telegram voice notes and audio attachments into the conversation at the user-prompt-submit seam, so the model sees text instead of opaque audio.",
   "category": "channels",
