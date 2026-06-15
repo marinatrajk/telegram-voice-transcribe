@@ -1,0 +1,33 @@
+{
+  "name": "telegram-voice-transcribe",
+  "version": "0.1.0",
+  "description": "Vellum plugin that converts Telegram voice notes into text at the user-prompt-submit seam, before the agent loop sees them.",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinatrajk/telegram-voice-transcribe.git"
+  },
+  "engines": {
+    "node": ">=20.12.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "peerDependencies": {
+    "@vellumai/plugin-api": "^0.8.0"
+  },
+  "peerDependenciesMeta": {
+    "@vellumai/plugin-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/bun": "1.3.10",
+    "@types/node": "25.5.0",
+    "@vellumai/plugin-api": "0.8.12",
+    "typescript": "5.9.3"
+  }
+}
