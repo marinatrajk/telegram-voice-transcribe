@@ -1,0 +1,18 @@
+# Vellum skill repo: keep code + manifests only.
+# Audio blobs go in workspace attachments, never here.
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Build / install artifacts
+node_modules/
+*.log
+*.tmp
+
+# Skill-specific: never commit downloaded audio
+attachments/
